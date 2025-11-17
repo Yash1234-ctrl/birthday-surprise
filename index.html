@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday!</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Animated Background -->
+<canvas id="bgCanvas"></canvas>
+
+<div class="container">
+
+  <!-- Header -->
+  <header class="header">
+    <h1 class="animate-title">Happy Birthday, Samruddhi! 🎉</h1>
+    <p class="subtitle">A special day just for you ❤️</p>
+  </header>
+
+
+  <!-- Birthday Card -->
+  <section class="card-section">
+    <div class="birthday-card" id="birthdayCard" >
+      <div class="card-top">
+        <span class="balloon">🎈</span>
+        <span class="balloon">🎈</span>
+        <span class="balloon">🎈</span>
+      </div>
+      <div class="card-message">
+        <h2>Happiest Birthday Samruddhiii! ❤️</h2>
+        <p>Wishing you endless happiness, laughter, and unforgettable moments on your special day. 🎂</p>
+        <p>With love, <strong>Yasha</strong></p>
+      </div>
+      <div class="card-media">
+        <img src="photo1.jpg" alt="Us Photo 1" class="media-frame">
+        <video src="photo2.mp4" autoplay loop muted class="media-frame"></video>
+        <img src="photo3.jpg" alt="Us Photo 2" class="media-frame">
+      </div>
+      <button id="openGift" class="confetti-btn">🎁 Open Your Gift</button>
+    </div>
+  </section>
+
+  <!-- Surprise Modal -->
+  <div id="giftModal" class="modal hidden" id="bg">
+    <div class="modal-content">
+      <span id="closeModal" class="close-btn">&times;</span>
+      <h2  id="ch">Party Ch Bg Ata... 😆</h2>
+    
+      <div class="modal-photos">
+      
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
